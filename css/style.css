@@ -24,6 +24,7 @@ body {
 
 .layout_padding-top {
   padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .layout_padding-bottom {
@@ -38,7 +39,6 @@ body {
 
 .heading_container h2 {
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 /*header section*/
@@ -231,7 +231,6 @@ a:focus {
 .slider_section .detail-box h1 {
   color: #ffffff;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 .slider_section .detail-box p {
@@ -498,7 +497,6 @@ a:focus {
 
 .about_section .detail-box h2 {
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 .about_section .detail-box p {
@@ -566,9 +564,14 @@ a:focus {
   max-height: 45px;
 }
 
-.freelance_section .tab_container .t-link-box .detail-box h5 {
+ .detail-box h5 {
   font-weight: bold;
   color: #E2E2E2;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.detail-box p{
+  font-size: 0.9rem;
 }
 
 .freelance_section .tab_container .t-link-box .detail-box h3 {
