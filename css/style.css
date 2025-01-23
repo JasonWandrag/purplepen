@@ -44,8 +44,8 @@ body {
 /*header section*/
 .hero_area {
   height: calc(100vh - 30px);
-  background: -webkit-gradient(linear, left top, right top, color-stop(55%, #3D3B3A), color-stop(55%, #8C52FF));
-  background: linear-gradient(to right, #3D3B3A 55%, #8C52FF 55%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(55%, #636060), color-stop(55%, #9867f9));
+  background: linear-gradient(to right, #636060 55%, #9867f9 55%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,7 +59,7 @@ body {
 .sub_page .hero_area {
   height: auto;
   background: none;
-  background-color: #3D3B3A;
+  background-color: #636060;
 }
 
 .hero_area.sub_pages {
@@ -199,7 +199,7 @@ a:focus {
 }
 
 .login_btn-container a {
-  color: #8C52FF;
+  color: #9867f9;
   text-transform: uppercase;
 }
 
@@ -229,12 +229,12 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  color: #ffffff;
+  color: #111;
   font-weight: bold;
 }
 
 .slider_section .detail-box p {
-  color: #ffffff;
+  color: #111;
   margin-top: 15px;
 }
 
@@ -324,7 +324,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 14px;
   background-position: center;
-  background-color: #8C52FF;
+  background-color: #9867f9;
   margin: 2px;
 }
 
@@ -410,7 +410,7 @@ a:focus {
 .experience_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 10px 0;
-  background-color: #3D3B3A;
+  background-color: #636060;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -420,8 +420,8 @@ a:focus {
 
 .experience_section .detail-box .btn-box .btn-2:hover {
   background-color: transparent;
-  border-color: #3D3B3A;
-  color: #3D3B3A;
+  border-color: #636060;
+  color: #636060;
 }
 
 .experience_section .img-box img {
@@ -429,7 +429,7 @@ a:focus {
 }
 
 .category_section {
-  background-color: #8C52FF;
+  background-color: #9867f9;
   color: #ffffff;
   text-align: center;
 }
@@ -552,7 +552,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #3D3B3A;
+  background-color: #636060;
   border-radius: 100%;
   margin-right: 35px;
 }
@@ -580,7 +580,7 @@ a:focus {
 }
 
 .freelance_section .tab_container .t-link-box[aria-expanded="true"] .img-box, .freelance_section .tab_container .t-link-box:hover .img-box {
-  background-color: #8C52FF;
+  background-color: #9867f9;
 }
 
 .freelance_section .img-box img {
@@ -622,7 +622,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: center;
-  background-color: #3D3B3A;
+  background-color: #636060;
   margin: 2px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -639,7 +639,7 @@ a:focus {
 /* info section */
 .info_section {
   position: relative;
-  background-color: #3D3B3A;
+  background-color: #636060;
   color: #ffffff;
 }
 
